@@ -1,0 +1,323 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+nav{
+   
+    flex:1;
+    text-align: right;
+}
+nav ul{
+  
+    list-style: none;
+    display: inline-block;
+}
+nav ul li{
+
+    display: inline-block;
+    margin-right: 20px;
+}
+a{
+    text-decoration: none;
+    color: rgb(85, 85, 85);
+}
+p{
+    color: rgb(85, 85, 85);
+}
+.container{
+   
+    max-width: 1300px;
+    margin:auto;
+    padding-left: 25px; 
+    padding-right: 25px;
+    background: radial-gradient(rgba(224, 247, 250, 0.992),#80DEEA);
+}
+.container .row{
+    margin-top: 70px;
+} 
+
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.col-2{
+    flex-basis: 50%;
+    min-width: 300px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.col-2 img{
+    max-width: 100%;
+    padding: 50px 0px;
+}
+.col-2 h1{
+    font-size: 50px;
+    line-height:60px;
+    margin: 25px 0;
+
+}
+.btn{
+
+    display: inline-block;
+    background-color:rgb(255, 87, 34) ;
+    color: rgb(255, 255, 255);
+    padding: 8px 30px;
+    border-radius: 8px;
+    margin: 30px 0;
+    transition: 0.5s;
+}
+.btn:hover{
+    background-color: rgb(255, 235, 59);
+    color: rgb(84, 84, 84);;
+}
+
+
+/* ========= feature section ======== */
+.categories{
+    margin: 70px 0;
+}
+.col-3{
+    flex-basis: 30%;
+    min-width: 250px;
+    margin-bottom: 30px;
+}
+.col-3 img{
+    width: 100%;
+}
+.small_container{
+    max-width: 1080px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+
+}
+
+/* =============  */
+
+.col-4{
+    flex-basis: 30%;
+    padding: 10px;
+    min-width: 170px;
+    margin-bottom: 50px;
+    transition: 0.5s;
+
+}
+.col-4:hover{
+    transform: translateY(-5px);
+}
+.col-4 img{
+    width: 100%;
+}
+.title{
+    text-align: center;
+    margin:0 auto 80px;
+    position: relative;
+    color: rgb(85, 85, 85);
+    line-height: 60px;
+}
+.title::after{
+    content:" ";
+    background-color: rgb(255, 82, 59);
+    width: 80px;
+    height: 5px;
+    border-radius: 5px;
+    position: absolute;  
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+
+}
+h4{
+    color: rgb(85, 85, 85);
+    font-weight: normal;
+}
+.col-4 p{
+    font-size: 14px;
+}
+.rating{
+    color: rgb(255, 82, 59);
+}
+
+/* ========== Offer ========= */
+.offer{
+    max-width: 1300px;
+    margin:auto;
+   margin-top: 80px;
+   padding: 30px 0;
+   background: radial-gradient(rgb(224, 247, 250),rgb(128, 222, 234));
+}
+.offer_para{
+    font-size: 13px;
+    line-height:1.6;
+    color: rgb(85, 85, 85);
+}
+
+/* ======== testimonial Section ========= */
+
+.testimonial{
+    padding-top: 100px;
+}
+.testimonial .col-3{
+    text-align: center;
+    padding: 40px 20px;
+    box-shadow: 0 0 20px 0px rgb(179, 172, 172) ;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.testimonial .col-3 img{
+    width: 50px;
+    height: 50px;
+    margin-top: 20px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.testimonial .col-3:hover{
+    transform: translateY(-15px);
+}
+.icon{
+    color: rgb(255, 82, 59);
+    font-size: 60px;
+}
+.col-3 p{
+    font-size: 12px;
+    margin-bottom: 12px ;
+    color: rgb(85, 85, 85);
+}
+.col-3 h3{
+    font-weight:600;
+    color: rgb(85, 85, 85);
+    font-size: 15px;
+}
+
+/* ========= Brands ======== */
+
+.brands{
+    margin: 100px auto;
+}
+.col-5{
+    width: 160px;
+}
+.col-5 img{
+    width: 100%;
+    cursor: pointer;
+    
+}
+.col-5 img:hover{
+    filter: grayscale(100%);
+}
+
+/*  =========== Footer ========== */
+.footer{
+    max-width: 1300px;
+    margin: auto;
+    background-color: rgb(14, 13, 13);
+    color: rgb(190, 182, 182);
+    font-size: 14px;
+    padding: 60px 0px 20px;
+}
+.container1{
+    max-width: 1300px;
+    margin:auto;
+    padding-left: 25px; 
+    padding-right: 25px;
+}
+.footer p{
+    color: rgb(190, 182, 182);
+}
+.footer h3{
+    color: rgb(255, 255, 255);
+    margin-bottom: 20px;
+}
+.footer_col-1, .footer_col-2, .footer_col-3, .footer_col-4{
+    min-width: 250px;
+    margin-bottom: 20px;
+
+}
+.footer_col-1{
+    flex-basis: 30%;
+}
+.footer_col-2{
+    flex: 1;
+    text-align: center;
+}
+.footer_col-2 img{
+    margin-bottom: 20px;
+}
+.footer_col-3,.footer_col-4{
+    flex-basis: 12%;
+    text-align: center;
+}
+ul{
+    list-style: none;
+}
+.app_logo{
+    margin-top: 20px;
+
+}
+.app_logo img{
+    width: 150px;
+}
+.copyright{
+text-align: center;
+}
+.footer hr{
+    border: none;
+    background-color:rgb(190, 182, 182) ;
+    height: 1px;
+    margin: 20px 0px;
+}
+.menu_icon{
+    display: none;
+    margin-left: 15px;
+}
+
+
+/* ============ Medai Queries for 800 px ============= */
+@media (max-width: 800px){ 
+    nav ul{
+        position: absolute;
+        top: 70px;
+        left: 0;
+        background-color: rgb(66, 66, 66);
+        width: 100%;
+        transition: 0.5s
+    }
+  
+    nav ul li{
+        display: block;
+        margin-right: 50px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    nav ul li a{
+        color: rgb(19, 11, 11);
+    }
+    .menu_icon{
+        display: block;
+        /* here question why display block karne se menu-icon show hota he */
+        cursor: pointer;
+    }
+}
+    
+/* ============ Medai Queries for 600 px ============= */ 
+@media (max-width: 600px){
+    .row{
+        text-align: center;
+    }
+    .col-2,.col-3,.col-4{
+        flex-basis: 100%;
+    }
+}
