@@ -307,7 +307,6 @@ text-align: center;
     }
     .menu_icon{
         display: block;
-        /* here question why display block karne se menu-icon show hota he */
         cursor: pointer;
     }
 }
